@@ -21,7 +21,7 @@ def load_models():
     download_model('https://github.com/nevermind78/ml-project/raw/refs/heads/main/models/knn.pkl', 'knn.pkl')
 
     # Load models into memory
-    logistic_regression = joblib.load('logistic_regression.pkl')
+    logistic_regression = joblib.load('models/logistic_regression.pkl')
     linear_svc = joblib.load('linear_svc.pkl')
     knn = joblib.load('knn.pkl')
 
