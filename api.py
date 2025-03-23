@@ -22,8 +22,8 @@ def load_models():
 
     # Load models into memory
     logistic_regression = joblib.load('models/logistic_regression.pkl')
-    linear_svc = joblib.load('linear_svc.pkl')
-    knn = joblib.load('knn.pkl')
+    linear_svc = joblib.load('models/linear_svc.pkl')
+    knn = joblib.load('models/knn.pkl')
 
     return logistic_regression, linear_svc, knn
 
